@@ -80,7 +80,7 @@ print("Classification Report:\n", classification_report(y_test, y_pred))
 
 #confusion matrix
 conf_matrix = confusion_matrix(y_test, y_pred) 
-sns.heatmap(conf_matrix, annot=True, fmt="d", cmap="Blues")
+sns.heatmap(conf_matrix, annot=True, fmt="d", cmap="Reds")
 plt.xlabel("Predicted")
 plt.ylabel("Actual")
 plt.title("Confusion Matrix")
